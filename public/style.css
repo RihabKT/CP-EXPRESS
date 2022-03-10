@@ -1,0 +1,126 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.flexy{
+    display:flex;
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.flexhome{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.flexnew{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    background-color: rgb(241, 241, 210);
+    font-weight: bold;
+    position:fixed;
+    left: 0;
+    width: 100%;
+    top: 0;
+    
+}
+
+main{
+    background-color: rgb(212, 224, 241);
+}
+
+body{
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(20, 20, 126);
+    padding-top: 160px;
+   
+}
+
+h2{
+    font-weight: bolder;
+    color: rgb(20, 20, 126);
+    text-decoration:underline;
+    margin-left: 30px;
+   padding-top: 160px;
+}
+
+h3{
+    font-weight: bolder;
+    color: goldenrod;
+    margin-top: 50px;
+    margin-left: 30px;
+   
+}
+h5{
+    font-weight: bolder;
+    color: rgb(98, 186, 221);
+    margin-top: 40px;
+    text-decoration: underline;
+    margin-left: 30px;
+}
+
+.location{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+button{
+    margin-left: 620px;
+    padding: 5px;
+    margin-top: 60px;
+    font-weight: bolder;
+    border: 3px solid rgb(20, 20, 126); 
+    background-color: rgb(243, 243, 213);
+    border-radius: 8px;
+    
+}
+
+.readbutton{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(20, 20, 126);
+}
+
+button a:hover{
+    color:goldenrod;
+}
+
+button:hover{
+    background-color: rgb(236, 236, 135);
+}
+
+p{
+    margin-top: 50px;
+    font-size: medium;
+    font-weight: bold;
+    margin-left: 30px;
+    
+}
+
+a{
+    margin-left: 6px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: small;
+    color: gray;
+}
+
+a:hover{
+    color:gold;
+}
